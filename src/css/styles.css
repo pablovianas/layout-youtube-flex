@@ -1,0 +1,67 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #F7F7F7;
+    width: 900px;
+    display: flex;
+    gap: 10px;
+    padding: 30px 30px 15px 30px;
+}
+
+.video-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.video-principal h1{
+    font-size: 18px;
+}
+
+.video-principal span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.video-principal p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* 
+
+padding: top - right - bottom - left 
+
+*/
+
+.propaganda{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.informacoes h2 {
+    font-size: 14px;
+}
+
+.informacoes span {
+    font-size: 11px;
+    font-weight: 300;
+}
